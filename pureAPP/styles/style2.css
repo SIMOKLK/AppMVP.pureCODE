@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Raleway";
+}
+
+.fila1 {
+    background-color: white;
+}
+
+.return img {
+    height: 70%;
+    width: auto;
+    padding: 10%;
+}
+
+.delete img {
+    height: 100%;
+    width: auto;
+}
+
+.return {
+    height: 7vw;
+    width: 7vw;
+    border: none;
+    background-color: #e6e4e5;
+    border-radius: 1vh;
+}
+
+.delete {
+    height: 6vw;
+    width: 6vw;
+    border: none;
+    background-color: transparent;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+main {
+    overflow: hidden;
+}
+
+.elementosMenu2 {
+    background: #FAFAFA;
+    width: 100%;
+    height: 67vh;
+    overflow-x: auto;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 50vw;
+    align-items: center;
+}
+
+.elemento {
+    width: 100%;
+    display: flex;
+    background: #FFFFFF;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    padding-right: 3%;
+    padding-left: 3%;
+    position: relative;
+}
+
+.elemento img {
+    width: 24vw;
+    height: 28vw;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.principal {
+    padding: 1rem;
+}
+
+.contador {
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+}
+
+.contador button {
+    width: 35px;
+    height: 30px;
+}
+
+.suma {
+    border-radius: 10px 10px 0px 0px;
+    border: none;
+    background: #ededef;
+}
+
+.resta {
+    border-radius: 0px 0px 10px 10px;
+    border: none;
+    background: #ededef;
+}
+
+.quantity {
+    width: 35px;
+    height: 30px;
+    text-align: center;
+    font-size: 1px;
+    font-size: 15px;
+    border: none;
+    color: black;
+    line-height: 25px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.texto p {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 15px;
+    color: gold;
+    padding-bottom: 3%;
+}
+
+.texto h5 {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    color: #000000;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.texto h6 {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 13px;
+    color: rgba(0, 0, 0, 0.43);
+    text-align: center;
+}
+
+.desglosePrecio {
+    padding-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+    height: 25vh;
+    background: #FE6B01;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.precio {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  
+}
+
+.columnaTexto {
+    width: 60vw;
+}
+
+.columnaPrecio {
+    width: 17vw;
+}
+
+.columnaPrecio p {
+    color: white;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.columnaTexto p {
+    color: white;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.botonEnvio {
+    display: flex;
+    justify-content: center;
+}
+
+.boton2 {
+    width: 290px;
+    height: 48px;
+    left: 23px;
+    top: 651px;
+    background: #FAFAFA;
+    border-radius: 10px;
+    border: none;
+    
+}
+
+
+
+.botonEliminar {
+    width: 25px;
+    height: 25px;
+    background-color: rgba(254, 107, 1, 0.5);
+    border: none;
+    text-align: center;
+    color: white;
+    border-radius: 25px;
+    position: absolute;
+    top:-7%;
+    left: 1%;
+    font-size: 17px;
+    font-weight: 600;
+    filter: drop-shadow(0px 0px 5px white);
+}

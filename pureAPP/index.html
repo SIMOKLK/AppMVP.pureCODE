@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Restaurante</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="icon" href="img/favicon.svg">
+    <link href=" https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap " rel="stylesheet ">
+    <link rel="stylesheet " href="styles/style.css">
+    <link rel="stylesheet" href="styles/style2.css">
+
+</head>
+<body>
+    <div id="principal" style="display: block;">
+        <header>
+            <div>
+                <h1>Food For Home</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </div>
+            <img class="logo" src="./img/logo.png">
+        </header>
+        <div class="slider"></div>
+
+        <div class="elementosMenu1"></div>
+
+        <footer>
+            <button class="iconos ">
+            <img src="img/footer/home.svg " class="iconotamaño "></img>
+        </button>
+
+            <button class="iconos ">
+            <img src="img/footer/bolsalike.svg " class="iconotamaño "></img>
+        </button>
+
+            <button onClick="cart()" class="botonCarrito">
+                <img src="img/footer/bolsa.svg " class="imgboton"></img>
+        </button>
+
+            <button class="iconos ">
+            <img src="img/footer/corazon.svg " class="iconotamaño "></img>
+        </button>
+            <button class="iconos ">
+            <img src="img/footer/usuario.svg " class="iconotamaño "></img>
+        </button>
+        </footer>
+    </div>
+
+    <div id="checkout" style="display: none;">
+
+        <header>
+            <div class="fila1">
+                <button onClick="retornar()" class="return"><img src="img/flechita.png" alt="return"></button>
+            </div>
+
+            <div class="fila2">
+                <h3>My Cart</h3>
+            </div>
+        </header>
+
+        <main>
+
+            <div class="elementosMenu2"></div>
+        </main>
+
+        <footer class="desglosePrecio">
+            <div class="precio">
+                <div class="columnaTexto">
+                    <p>Subtotal</p>
+                    <p>Tasas</p>
+                    <p>Delivery</p>
+                    <p>TOTAL</p>
+                </div>
+
+                <div class="columnaPrecio">
+                    <p id="subtotal"></p>
+                    <p id="tasas"></p>
+                    <p id="delivery"></p>
+                    <p id="total"></p>
+                </div>
+            </div>
+            <button class="boton2" onClick="botonEnviarPedido()">Enviar pedido</button>
+        </footer>
+
+    </div>
+    <script src="scripts/contador.js"></script>
+    <script src="scripts/listaplatos.js"></script>
+    <script src="scripts/elementos.js"></script>
+    <script src="scripts/categorias.js"></script>
+    <script src="scripts/carritoCompra.js"></script>
+    <script src="scripts/cambioDePantalla.js"></script>
+    <script src="scripts/filtroCategorias.js"></script>
+    <script src="scripts/desglosePrecio.js"></script>
+
+</body>
+
+</html>
